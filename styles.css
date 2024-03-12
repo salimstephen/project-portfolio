@@ -3,8 +3,14 @@
     margin: 0;
     padding: 0;
     background-color: #060b1f;
+    color: white;
 }
 
 header{
     background: #060b1f;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
 }
