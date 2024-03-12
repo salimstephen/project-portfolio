@@ -81,8 +81,8 @@
   }
   section.about h1 {
     margin-bottom: 1rem;
-    font-size: 1.6rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: bold;
   }
   section.about h1 span {
     color: var(--primary);
