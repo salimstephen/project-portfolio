@@ -282,7 +282,7 @@
     margin-left: 75px;
   }
   .content .right-side .topic-text{
-    font-size: 23px;
+    font-size: 2rem;
     font-weight: bolder;
     color: var(--primary);
   }
@@ -306,7 +306,7 @@
   .right-side .message-box{
     min-height: 110px;
   }
-  .right-side .input-box textarea{
+  .right-side .input-box{
     padding-top: 6px;
   }
   .right-side .button{
