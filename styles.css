@@ -333,16 +333,12 @@
   /* ************************************ */
 
   .footer {
-    /* position: absolute; */
-    /* top: 50%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
-    /* max-width: 1280px; */
-    /* width: 95%; */
-    background: #10182F;
+    background: var(--bgDark);
     border-radius: 6px;
   }
   .footer .footer-row {
+    max-width: 80%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
