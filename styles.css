@@ -117,10 +117,12 @@
     background: rgb(17, 17, 17);
   }
   .services-head {
-    color: rgb(10, 9, 9);
+    /* color: rgb(10, 9, 9); */
     text-align: center;
     margin-bottom: 1rem;
     line-height: 0.5rem;
+    font-size: 2rem;
+    font-weight: bolder;
     color: var(--primary);
   }
   .services-head + p {
