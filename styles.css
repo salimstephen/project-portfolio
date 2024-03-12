@@ -232,11 +232,6 @@
 
   .contact{
     width: 80%;
-    /* background: #fff; */
-    /* border-radius: 6px; */
-    /* padding: 20px 60px 30px 40px; */
-    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); */
-    background-color: red;
     margin: auto;
   }
   .contact .content{
@@ -270,7 +265,7 @@
   }
   .content .left-side .details i{
     font-size: 30px;
-    color: #3e2093;
+    color: var(--color);
     margin-bottom: 10px;
   }
   .content .left-side .details .topic{
@@ -288,8 +283,8 @@
   }
   .content .right-side .topic-text{
     font-size: 23px;
-    font-weight: 600;
-    color: #3e2093;
+    font-weight: bolder;
+    color: var(--primary);
   }
   .right-side .input-box{
     height: 50px;
@@ -325,12 +320,12 @@
     border: none;
     padding: 8px 16px;
     border-radius: 6px;
-    background: #3e2093;
+    background: var(--secondary);
     cursor: pointer;
     transition: all 0.3s ease;
   }
   .button input[type="button"]:hover{
-    background: #5029bc;
+    background: var(--primary);
   }
   @media (max-width: 950px) {
     .contact{
